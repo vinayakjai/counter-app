@@ -19,11 +19,11 @@ function App() {
   return (
     <>
       <button onClick={() => dispatch(increment())}>Add</button>
-      <button>decrement</button>
+    
       <p>count is : {count}</p>
 
       <button onClick={() => dispatch(increment500(500))}>ADD500</button>
-      <button>DEDUCT500</button>
+    
       <br />
       <br />
       <div>
